@@ -1,14 +1,13 @@
-/* The following code implements an Algebraic Multigrid algorithm.
-    The algorithm was pseudo-coded in Ruge and Struben. We attempt a 
-    relatively modern C++ implementation here.
-    
-
-    We favour std::vector over std::set as std::vector is more optimised
-    and is pretty much always recommended over std::set : See ""Professional C++"
-    
-    I use tabs instead of spaces. This might look strange in git.
-
-*/
+/* 
+ *      The following code is an implementation of the 
+ *      Algebraic Multi-Grid method. This is outlined 
+ *      in the famous paper and this code follows that
+ *      paper closely. 
+ *
+ *      This code is not quite finished: The routines are
+ *      complete. But there is some way to go.
+ *
+ */
 
 
 
